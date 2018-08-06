@@ -1,3 +1,8 @@
+# Best case = O(1)
+# Worst Case and Average Case = n^2
+# It is inplace and stable
+# space complexity o(n)
+
 def insertion_sort_x(arr, size_n):
 
 	if n>=1:

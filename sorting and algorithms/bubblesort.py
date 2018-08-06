@@ -1,25 +1,9 @@
-def bubblesort(arr):
-	n = len(arr)
-
-	for i in range (0, n):
-		for j in range(0, n-i-1):
-			if arr[j] > arr[j+1]:
-				arr[j], arr[j+1] = arr[j+1], arr[j]
-
-
-def bubblesortown(arr):
-	length = len(arr)
-
-	for i in range (0,n):
-		if arr[i] > arr[i+1]:
-			arr[i], arr[i+1] = arr[i+1], arr[i]
-
-
 # Notes 
 
 # Best case = O(1)
 # Worst Case and Average Case = n^2
 # It is inplace and stable
+# space complexity o(n)
 
 def bubble_sort(listt):
 	for i, num in enumerate(listt):
