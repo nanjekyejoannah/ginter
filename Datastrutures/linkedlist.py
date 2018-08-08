@@ -5,7 +5,7 @@ class Node:
 
 	def traverse(self):
 		node = self
-		while none != None:
+		while node != None:
 			print node.value
 			node = node.next
 
